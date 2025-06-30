@@ -8,7 +8,7 @@
 
 body {
   background-color: white;
-  color: #333;
+  color:#151A28;
   line-height: 1.6;
 }
 
@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #303e4d;
+  background-color: #151A28;
   color: white;
   position: sticky;
   top: 0;
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-links li {
-  margin-left: 2rem;
+margin-left: 3rem;
 }
 
 .nav-link {
@@ -50,15 +50,19 @@ body {
   font-size: 1.1rem;
   transition: color 0.3s ease;
   padding: 0.5rem 0;
+  transition: all 0.3s ease;
+ 
 }
 
 .nav-link:hover {
-  color: #f39c12;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: 0.7s;
+  color: #007ffe;
 }
 
 .nav-link.active {
-  color: #f39c12;
-  font-weight: 500;
+  color: #034e68;
 }
 
 
@@ -183,7 +187,7 @@ body {
   width: 80%;
   max-width: 500px;
   padding: 0.8rem;
-  border: 1px solid #ddd;
+  border: 1px solid#ddd;
   border-radius: 5px;
   font-size: 1rem;
   margin: 0 auto;
@@ -250,7 +254,7 @@ body {
 }
 
 .compare-table th {
-  background-color: #2c3e50;
+  background-color: #151A28;
   color: white;
   padding: 1rem;
   text-align: left;
@@ -330,7 +334,7 @@ body {
 
 
 .footer {
-  background-color: #2c3e50;
+  background-color:#151A28;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -348,7 +352,7 @@ body {
 }
 
 .socials a:hover {
-  color: #f39c12;
+  color: royalblue;
 }
 
 .list {
@@ -370,7 +374,7 @@ body {
 }
 
 .footer-link:hover {
-  color: #f39c12;
+  color: royalblue;
 }
 
 .copyright {
@@ -382,11 +386,11 @@ body {
 @media (max-width: 900px) {
   .nav-links {
     position: fixed;
-    top: 80px;
+    top: 90px;
     left: 20px;
     right: 20px;
     width: calc(100% - 40px);
-    background-color: #2c3e50;
+    background-color:#151A28;
     flex-direction: column;
     border-radius: 5px;
     align-items: center;
@@ -460,7 +464,7 @@ body {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1050px) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -536,7 +540,7 @@ body {
   
   .tab-content img {
     max-width: 120px;
-  }
+  }  
 }
 
 
