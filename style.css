@@ -86,12 +86,17 @@ margin-left: 3rem;
   min-height: calc(100vh - 120px);
 }
 .amazon-button{
- padding: 5px;
- text-decoration: none;
- border-radius: 8px;
- background:#007ffe;
- color: white;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 2.5rem;
+padding: 4px 1px;
+text-decoration: none;
+border-radius: 8px;
+background:#007ffe;
+color: white;
 }
+
 .section {
   display: none;
 }
